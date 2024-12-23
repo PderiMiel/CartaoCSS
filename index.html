@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Cartão de Visitas do Lourenzo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            justify-content: center;
+            align-items: center;
+            height: 100px;
+        }
+
+        .box {
+            background-color: #537072;
+            border-radius: 15px;
+            box-shadow: 0 4px 6px rgb(0, 0, 0, 0.1);
+            padding: 25px;
+            margin: 10px;
+            text-align: center;
+            position: relative;
+        }
+
+        .quadrado {
+            position: absolute;
+            width: 200px;
+            height: 450px;
+            top: -13px;
+            left: -6px;
+            border-radius: 15px;
+        }
+
+        .img {
+            border-radius: 50%;
+            border: 5px solid;
+            border-color: rgb(5, 116, 97, 0.226) ;
+            position: absolute;
+            top: 80px;
+            left: 110px;
+            width: 250px;
+            height: 250px;
+            z-index: 1;
+        }
+
+        .name {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #000000;
+            margin: 10px 0;
+        }
+
+        .title {
+            font-size: 1.2rem;
+            color: #000000;
+            margin-bottom: 15px;
+        }
+
+        .contact {
+            margin: 15px 0;
+            font-size: 0.9rem;
+            color: #000000;
+        }
+
+        .social-links {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #000000;
+            font-size: 1.2rem;
+        }
+
+        footer {
+            margin-top: 15px;
+            font-size: 0.8rem;
+            color: #000000;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="box">
+            <header>
+                <p class="quadrado"></p>
+                <img src="img/perfil.jpg" alt="Foto de perfil">
+                <div class="name">Lourenzo Miguel Santos Braga</div>
+                <div class="title">Turista Fotográfico</div>
+            </header>
+            <section class="contact">
+                <p><strong>Telefone:</strong> +55 (85) 98537-3268</p>
+                <p><strong>E-mail:</strong> pedrilourenzo@gmail.com</p>
+            </section>
+            <aside class="social-links">
+                <a href="https://x.com/MilesEilish" target="_blank">Twitter</a>
+                <a href="https://instagram.com/migles06" target="_blank">Instagram</a>
+            </aside>
+            <footer>
+                © 2024 Lourenzo Miguel Santos Braga
+            </footer>
+        </div>
+    </main>
+</body>
+</html>
